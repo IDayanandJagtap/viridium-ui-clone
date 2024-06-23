@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import Home from "./components/home";
 
 const App = () => {
     return (
         <>
             <Header />
-            <div className="h-96 bg-red-500 w-full"></div>
+            <Home />
         </>
     );
 };
