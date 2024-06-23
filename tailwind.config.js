@@ -7,8 +7,7 @@ export default {
                 primary: "#1C59FF",
             },
             backgroundImage: {
-                blueGrid:
-                    "url(" + require("./src/assets/images/blue-grid.png") + ")",
+                blueGrid: "url('./public/assets/blue-grid.png')",
             },
             boxShadow: {
                 pillShadow: "-1px -1px 1px #1C59FF",
